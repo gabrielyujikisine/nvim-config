@@ -1,5 +1,10 @@
 return {
-    "windwp/nvim-autopairs",
-    event = "InsertEnter",
-    config = true,
+	{
+		"windwp/nvim-ts-autotag",
+	},
+	{
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		config = true,
+	},
 }
